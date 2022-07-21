@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: #AED6F1;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +11,69 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+form{
+  background-color: white;
+  padding: 20px;
+  width: 240px;
+  margin: 2rem auto;
+}
+.card{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.cd{
+  background-color: white;
+  padding: 20px;
+  width: 240px;
+  margin: 2rem auto;
+}
+.cd-new{
+  background-color: rgba(255, 255, 255, 0.492);
+  padding: 20px;
+  width: 240px;
+  margin: 2rem auto;
+}
+.cd-new button{
+  background-color: #0ba40e;
+}
+label{
+margin-right: 10px;
+margin-bottom: 5px;
+}
+input{
+  width: 96%;
+  margin-bottom: 10px;
+  background-color: gainsboro;
+  border: none;
+  padding: 6px;
+  border-radius: 5px;
+  color: black;
+}
+button{
+  width: 100%;
+  background-color: #229954;
+  border: 0;
+  color: white;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.editar{
+  background-color: #F4D03F;
+}
+.eliminar{
+  background-color: #EC7063;
+}
+
+header{
+  background-color: #000000;
+  color: white;
+  height: 70px;
+  align-items: center;
+  margin: auto;
+  text-align: center;
 }
